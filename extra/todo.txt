@@ -1,0 +1,96 @@
+TODO.txt
+
+List of Remaining Tasks:
+
+    -------
+    inserts -- COMPLETED
+    -------
+
+XX Implement New Project adding Task & Task Skill entities (and getting this info from user) XX
+    currently it just makes a project entity
+
+    doing task: COMPLETED (took a bit longer than expected)
+
+XX Implement Search & Assign (Revamp GUI & Backend)
+    this is more complex than I initially though, since we need to make a new assignment
+    entry, and link to a task_skill entity
+
+    I also need to find out if we need to provide options for this or if the user can enter
+    the info themselves (would simplify things a good bit if they could)
+
+    doing task: COMPLETED (also took a second)
+
+    ------------
+    transactions -- COMPLETED
+    ------------
+
+XX Implement Logging Work Time
+    need to move this to the button under the transactions menu, and can simplify 
+    what the button does a good amount. Just need to ask for employee ID & update the worklog table
+    should be relatively simple
+
+    doing task: COMPLETED
+
+XX Implement Create Bill functionality & GUI
+    Need to implement the create bill button in the transactions menu
+    Enter a date --> check if there is an existing bill (if not make one)
+    --> Calculate bill amount (or get it if we store it) & add to table
+    Not super complicated
+
+    doing task: COMPLETED
+
+    -------
+    reports -- COMPLETED
+    -------
+
+XX Project Schedule Report
+    need both the GUI formatting to be made & the SQL queries to be linked
+    (and made if they haven't been already).
+    
+    needs to be able to show all projects or 1 specific project
+
+    can have repeating entries in a table for all proejcts (doesn't have to look pretty)
+
+     doing task: COMPLETED
+
+
+XX EmpSkill Report
+    need to add ability to display by all or employee, currently
+    only displaying by all. (have a menu to select which one)
+    should be pretty simple
+    
+    doing task: COMPLETED
+
+
+XX Assignment Form 
+    needs to be displayable by project, employee, or all (have a menu/buttons to decide)
+    same as project report, can have repeating entries & doesn't have to be pretty
+    just display the data
+
+    doing task: COMPLETED
+
+
+XX Work Log Report
+    needs to be displayable by project, employee, or all (have a menu/buttons to decide)
+    again same as proj & assignment reports, doesn't have to be pretty, just get the data out there
+
+    doing task: COMPLETED
+
+
+--Re-Do Seed Data 
+    needs to not reference any hard coded variables for things that can be selected from tables
+
+    Also need to fix what we got wrong in proj 3 (mostly just getting rid of hard coded stuff)
+    Maybe re-organize? Thats low priority though as long as it works & has no hard coded stuff 
+    that we will get marked off for.
+
+    doing task:
+
+--Comment, Test,  & Clean Up Code 
+    do this last (obviously comment what you can when you write it), clean up stuff
+    before submitting
+
+    Test all the functionality sometime before the demo on wed/fri
+
+    doing task: Joey & Kenny
+
